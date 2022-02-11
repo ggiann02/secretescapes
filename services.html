@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Secret Escapes</title>
+    
+<style>
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(backgroundimage.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+        
+.services_left {
+    width: 50%;
+    float: left;     
+    text-align: center;
+}
+
+.services_right {
+    width: 50%;
+    float: right;
+    text-align: center;
+            
+}
+
+.services {
+    width: 50%;
+}
+        
+.box1 {
+    padding: 30px;         
+}
+
+.box1_right {
+    padding: 30px;         
+}
+        
+        
+.box1_content {
+    background-color: #152D35;   
+    text-align: center;
+}
+        
+.box1right_content {
+    background-color: #152D35;   
+    text-align: center;
+}
+        
+        
+        
+.box1_content p {
+    font-style: italic;
+    color: #8a9494;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    font-size: 14px;
+            
+}
+
+.box1right_content p {
+    font-style: italic;
+    color: #8a9494;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+            
+.box1_content img{
+    width: 150px;
+    padding: 23px;            
+}
+        
+.box1right_content img {
+    width: 110px;
+    padding: 20px;
+            
+}
+        
+.title {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;    
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0 ;
+    background: #297F87;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+        
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #297F87;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7d9ba1;
+    color: #152D35;
+    opacity: 0.7; 
+}
+
+.footer {
+    background-color: #297F87;
+}
+
+.footer_img {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright {
+    float:right;
+    color:white;
+    padding-right: 30px;
+}
+    
+.image-grid {
+    width: 100%;
+}
+    
+.column-left{
+    width: 50%;
+    float: left;
+    text-align: center;  
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+.column-left img {
+    width: 100%;
+    object-fit: cover;
+}
+    
+.column-right {
+    width: 50%;
+    float: right;
+    text-align: center;  
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+        
+}
+    
+.column-right img {
+    width: 100%;
+    object-fit: cover;
+
+}
+</style>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="s_escapes.png" class="logo">
+            <ul>
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='index.html'>About</a></li>
+                <li><a href='services.html'>Services</a></li>
+                <li><a href='contact.html'>Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="title">
+        <img src="services.png" class="services">
+        
+        </div>
+        
+        <div class="services_left">
+            
+        <div class="box1">
+            <div class="box1_content">
+            <img src="travel.png" class="travel">
+            <p>
+                At Secret Escapes, we look through thousands of websites in a matter of seconds
+                to find the cheapest and best travel options in the whole world. 
+                <br/> <br/>
+                Prices start from
+                9.99$ with an additional 5$ Secret Escapes service fee and services include:
+                plane travel, train travel, boat travel, bus travel and car sharing travel (for the
+                cheapest and closest adventures).
+                <br/><br/>
+                Our services include the whole world, but during the search you can restrict the area
+                you would like to travel to (ex. North America, Eastern Europe, Mediterranean ... etc.)
+                <br/> <br/>
+            </p>
+            <button type="button">BOOK TRAVEL</button>
+            </div>
+
+            
+        </div>
+        <div class="box2">   
+        </div>
+        </div>
+        
+        <div class="services_right">
+        <div class="box1_right">
+            <div class="box1right_content">
+            <img src="stay.png" class="stay">
+            <p>
+                Pair your travel option with incredible stay offers! We will look through thousands of booking websites to find the best last minute deals and cheap discounted offers.
+                <br/><br/>
+                If you want to pair your cheap adventure with a place to stay, we got you covered!
+                Prices range from 10.99$ per night with an additional 3$ fee per night and include all types of stay (ex. camping, hotels, hostels, resorts ... etx.)
+                
+                <br/><br/>
+                
+                We will find the absolute best offer for you, and all yo have to do is give us your preferred destination!
+                <br/> <br/>
+            </p>
+            <button type="button">BOOK STAY</button>
+            </div>
+            
+        
+        </div>
+        
+        
+        </div>
+        
+        
+    
+    </div>
+    
+    <div class="image-grid">
+        <div class="column-left">
+            <img src="https://images.unsplash.com/photo-1583452924150-c86772c4fab6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1600&q=60" alt="plane-image">
+            
+            <img src="https://images.unsplash.com/photo-1618905290026-5130c0e3d3ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHRyYXZlbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60" alt="mountains">
+            
+            <img src="https://images.unsplash.com/photo-1559700488-2c5c100110f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHRyYXZlbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1600&q=60" alt="kayaking">
+            
+            <img src="https://images.unsplash.com/photo-1619120238346-978e07731e77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRyYXZlbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1600&q=60" alt="maldives">
+        </div>
+        
+        <div class="column-right">
+            <img src="https://images.unsplash.com/photo-1534777367038-9404f45b869a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHRyYXZlbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60" alt="taj mahal">
+            
+            <img src="https://images.unsplash.com/photo-1499062918700-389fa905494e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHRyYXZlbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60" alt="travel">
+            
+            <img src="https://images.unsplash.com/photo-1519112232436-9923c6ba3d26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fHRyYXZlbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60" alt="venice">
+            
+            <img src="https://images.unsplash.com/photo-1522729525412-d848b2319ded?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHRyYXZlbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1600&q=60" alt="mountains">
+            
+        
+        </div>
+    </div>
+    
+</body>
+
+
+</html>
